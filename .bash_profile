@@ -3,7 +3,8 @@
 export PATH=/usr/local/bin:$PATH
 alias la="ls -lah"
 alias up="cd .."
-alias python='python3'
+alias gpom="git push -u origin master"
+alias gs="git status"
 alias quit='killall Terminal'
 alias mvim='/Applications/MacVim.app/Contents/MacOS/Vim -g'
 
@@ -19,3 +20,5 @@ export PS1='\[\033[02;32m\]\u\[\033[00m\] \[\033[02;33m\]${PS1X}\[\033[00m\]\$ '
 # The original version is saved in .bash_profile.pysave
 PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
 export PATH
+
+alias python=python3
