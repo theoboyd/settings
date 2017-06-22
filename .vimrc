@@ -6,3 +6,7 @@ set shiftwidth=4
 set colorcolumn=80
 set background=dark
 set vb t_vb=
+command! WQ wq
+command! Wq wq
+command! W  w
+command! Q  q
