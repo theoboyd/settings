@@ -35,3 +35,4 @@ alias sshgate="ssh -l t.gatewayusername 10.GATEWAY.1.1"
 alias mountgate="sudo sshfs -o allow_other,defer_permissions t.gatewayusername@10.GATEWAY.1.1:/ /Volumes/storage"
 alias mountgatefix="echo -e 'pgrep -lf sshfs\nsudo kill -9 (%pid%)\nsudo umount -f /Volumes/storage/'"
 
+mysql.server start
